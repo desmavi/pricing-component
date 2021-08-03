@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+  <main class="container">
+    <div class="row">
+      <div class="col col-lg-6">
+        <div class="text-content">
+          <h1>Simple, traffic-based pricing</h2>
+          <p>Sign-up for our 30-day trial. No credit card required.</p>
+        </div>
+        <div class="box">
+          <div class="price-range">
+              <div class="price-range-items">
+                <!--pageview-->
+                <p><span class="page-view">100</span><span class="dollar">K</span> Pageviews</p>
+                <!--input range-->
+                <div class="slider-container">
+                  <span class="bar">
+                    <span class="fill"></span>
+                  </span>
+                  <input type="range" id="range" class="slider" min="0" max="4" value="2" step="1" role="slider" aria-valuenow="2" aria-valuemin="0" aria-valuemax="4" aria-valuetext="100K per 16.00 dollars a month" aria-label="Page Views Quantity per Dollar Amount">
+                </div>
+                <!--Amount-->
+                <p><span class="amount" aria-label>$16.00</span><span class="billing-type"> /month</span></p>
+              </div>
+              <div class="toggle-wrapper">
+                <span class="switch-text-left">Monthly Billing
+                </span>
+                <label for="toggle" class="switch">
+                  <input type="checkbox" class="input-switch" role="switch" id="toggle" aria-checked="false">
+                  <span class="slider-switch"></span>
+                </label>
+                <span class="switch-text-right">Yearly Billing
+                  <span class="discount">25%
+                    <span class="discount-lg"></span>
+                  </span>
+                </span>
+              </div>
+          </div>
+          <hr>
+          <div class="features">
+            <ul>
+              <li>Unlimited websites</li>
+              <li>100% data ownership</li>
+              <li>Email reports</li>
+            </ul>
+            <input id="start-trial" type="button" value="Start your trial" role="button" aria-label="Start your trial">
+          </div>
+        </div>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Emanuela Maviglia</a>.
+        </div>
+      </div><!--end col-->
+    </div><!--end row-->
+  </main><!--end container-->
+
+  <script src="script.js"></script>
+</body>
+</html>
