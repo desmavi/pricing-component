@@ -68,7 +68,7 @@ body {
   text-align: center;
   padding: 3rem 0;
   margin-bottom: 1rem;
-  background-image: url(/images/pattern-circles.svg);
+  background-image: url(../images/pattern-circles.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30%;
@@ -191,7 +191,7 @@ body {
   width: 40px;
   border-radius: 50%;
   cursor: pointer;
-  background-image: url(/images/icon-slider.svg);
+  background-image: url(../images/icon-slider.svg);
   background-position: center;
   background-repeat: no-repeat;
   -webkit-box-shadow: 0 0 0 0 rgba(16, 213, 194, 0.1);
@@ -314,7 +314,7 @@ body {
 }
 
 .box .features ul li::before {
-  content: url(/images/icon-check.svg);
+  content: url(../images/icon-check.svg);
   margin-right: 1rem;
 }
 
