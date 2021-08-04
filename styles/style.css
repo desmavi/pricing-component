@@ -321,6 +321,7 @@ body {
 }
 
 .box .features input[type=submit] {
+  -webkit-appearance: none;
   cursor: pointer;
   height: 30px;
   background-color: #293356;
