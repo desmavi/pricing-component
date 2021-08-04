@@ -177,7 +177,8 @@ body {
 }
 
 .box .price-range .price-range-items .slider-container input[type=range] input[type=range]:focus,
-.box .price-range .price-range-items .slider-container span.bar {
+.box .price-range .price-range-items .slider-container span.bar,
+.box .price-range .price-range-items .slider-container input[type=range]:focus::-webkit-slider-thumb {
   outline: none;
 }
 
@@ -319,7 +320,7 @@ body {
   margin-right: 1rem;
 }
 
-.box .features input[type=button] {
+.box .features input[type=submit] {
   cursor: pointer;
   height: 30px;
   background-color: #293356;
@@ -332,7 +333,7 @@ body {
   transition: 0.2s color ease;
 }
 
-.box .features input[type=button]:hover {
+.box .features input[type=submit]:hover {
   color: white;
 }
 
