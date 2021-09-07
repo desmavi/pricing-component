@@ -50,6 +50,5 @@ slider.setAttribute("aria-valuetext", pageAndAmount[slider.value][0] + dollar.te
 
 ## Author
 - Frontend Mentor - [@desmavi](https://www.frontendmentor.io/profile/desmavi)
-- Twitter - [@desmavi](https://www.twitter.com/desmavi)
 
 
